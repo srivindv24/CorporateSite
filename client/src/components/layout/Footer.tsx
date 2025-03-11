@@ -7,16 +7,16 @@ export default function Footer() {
   return (
     <footer className="bg-muted mt-auto">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <h3 className="font-bold text-lg mb-4">TechCorp</h3>
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="space-y-4">
+            <h3 className="font-bold text-lg">TechCorp</h3>
             <p className="text-sm text-muted-foreground">
               Transforming businesses through innovative technology solutions.
             </p>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+          <div className="space-y-4">
+            <h4 className="font-semibold">Company</h4>
             <ul className="space-y-2">
               <li><Link href="/about" className="text-sm hover:text-primary">About Us</Link></li>
               <li><Link href="/careers" className="text-sm hover:text-primary">Careers</Link></li>
@@ -24,8 +24,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-4">Resources</h4>
+          <div className="space-y-4">
+            <h4 className="font-semibold">Resources</h4>
             <ul className="space-y-2">
               <li><Link href="/blog" className="text-sm hover:text-primary">Blog</Link></li>
               <li><Link href="/testimonials" className="text-sm hover:text-primary">Testimonials</Link></li>
@@ -33,8 +33,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
+          <div className="space-y-4">
+            <h4 className="font-semibold">Legal</h4>
             <ul className="space-y-2">
               <li><Link href="/legal#privacy" className="text-sm hover:text-primary">Privacy Policy</Link></li>
               <li><Link href="/legal#terms" className="text-sm hover:text-primary">Terms of Service</Link></li>
